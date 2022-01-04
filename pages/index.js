@@ -8,12 +8,19 @@ import {
   Button,
   Link,
 } from '@chakra-ui/react';
+import React from 'react';
+import Head from "next/head"
 
 export default function SocialProfileSimple() {
   const redirectMail = () => {
     window.location.href = "mailto: altina.me@protonmail.com"
   }
   return (
+    <React.Fragment>
+    <Head>
+    <title>Altina</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    </Head>
     <Box bg={'gray.800'}>
     <Center height="100vh">
       <Box
@@ -28,9 +35,9 @@ export default function SocialProfileSimple() {
         <Avatar
           size={'xl'}
           src={
-            'https://cdn.discordapp.com/attachments/839696060833333259/927930221628387438/pfp.png'
+            'https://cdn.discordapp.com/attachments/839696060833333259/927935319750377482/kyaru.png'
           }
-          className='unselectable'
+          
           alt={'Avatar Alt'}
           mb={4}
           pos={'relative'}
@@ -53,15 +60,15 @@ export default function SocialProfileSimple() {
 
         <Stack mt={8} direction={'row'} spacing={4}>
           <Button
-            colorScheme={'facebook'}
+            colorScheme={'blue'}
             flex ={1}
-            
             onClick={redirectMail}>
-            Mail
+            Harass Me!
           </Button>
         </Stack>
       </Box>
     </Center>
     </Box>
+    </React.Fragment>
   );
 }
