@@ -14,8 +14,8 @@ export default function SocialProfileSimple() {
     window.location.href = "mailto: altina.me@protonmail.com"
   }
   return (
-    <Box height={'100vh'} alignItems={'center'} justifyContent={'center'} bg={'gray.800'}>
-    <Center height="100vh" py={6}>
+    <Box bg={'gray.800'}>
+    <Center height="100vh">
       <Box
         maxW={'340px'}
         minH={'410px'}
@@ -28,8 +28,9 @@ export default function SocialProfileSimple() {
         <Avatar
           size={'xl'}
           src={
-            'https://cdn.discordapp.com/attachments/839696060833333259/927837819899093022/reines.png'
+            'https://cdn.discordapp.com/attachments/839696060833333259/927930221628387438/pfp.png'
           }
+          className='unselectable'
           alt={'Avatar Alt'}
           mb={4}
           pos={'relative'}
@@ -45,21 +46,16 @@ export default function SocialProfileSimple() {
           color={'gray.400'}
           px={3}>
           <p>Probably a loli.</p>
-          <Link color={'purple.300'} href='https://anilist.co/manga/86279/Kishuku-Gakkou-no-Juliet'>Juliet, </Link>
-          <Link color={'purple.300'} href='https://anilist.co/manga/98361/Mikkakan-no-Koufuku'>Happiness, </Link> and
-          <Link color={'purple.300'} href='https://anilist.co/anime/108465/Mushoku-Tensei-Isekai-Ittara-Honki-Dasu'> Reincarnation</Link>        
+          <Link color={'blue.300'} href='https://anilist.co/manga/86279/Kishuku-Gakkou-no-Juliet'>Juliet, </Link>
+          <Link color={'blue.300'} href='https://anilist.co/manga/98361/Mikkakan-no-Koufuku'>Happiness, </Link> and
+          <Link color={'blue.300'} href='https://anilist.co/anime/108465/Mushoku-Tensei-Isekai-Ittara-Honki-Dasu'> Reincarnation</Link>        
         </Text>
 
         <Stack mt={8} direction={'row'} spacing={4}>
           <Button
-            flex={1}
-            fontSize={'sm'}
-            rounded={'full'}
-            bg={'gray.700'}
-            color={'gray.200'}
-            _hover={{
-              bg: 'gray.600',
-            }}
+            colorScheme={'facebook'}
+            flex ={1}
+            
             onClick={redirectMail}>
             Mail
           </Button>
