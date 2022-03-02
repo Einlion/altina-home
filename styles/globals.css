@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: #1c1e26;
+  background-color: #272325;
 }
 
 * {
-  font-family: 'Inter';
+  font-family: 'IBM Plex Mono', monospace;
 }
