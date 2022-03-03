@@ -6,7 +6,7 @@ export default class Home extends PureComponent {
     return (
       <>
         <Head>
-          <title>Light Novels</title>
+          <title>Development</title>
         </Head>
         <div className="bg-body flex flex-col w-screen h-[80vh]">
           <div className="text-xl sm:mx-16 mx-4 font-medium sm:mt-16 mt-8 text-white px-8 py-8 border-pred">

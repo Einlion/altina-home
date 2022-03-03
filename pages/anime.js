@@ -34,7 +34,7 @@ export default class Home extends PureComponent {
                 href="https://anilist.co/anime/9756/Mahou-Shoujo-MadokaMagica/"
                 className="block text-pred hover:ml-3 transition-all ease-linear my-2 sm:text-xl text-lg"
               >
-                Mahou Shoujo Madoka☆Magica
+                Madoka☆Magica
               </a>
               <a
                 href="https://anilist.co/anime/105334/Fruits-Basket-1st-Season/"
