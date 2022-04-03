@@ -6,10 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "body": "#272325",
-        "pred": "#8ecae6",
-        "pred-faded": "#8ecae6",
-        "white": "#eee"
+        "body": "#14141B",
+        "body-light": "#1F1F28",
+        "border": "#858599",
+        "pred": "#e75a66",
+        "pred-faded": "#e75a66",
+        "white": "#E8E8E8"
+      },
+      backgroundImage: {
+        'cutie': "url('../public/cutie.png')"
       }
     },
   },
